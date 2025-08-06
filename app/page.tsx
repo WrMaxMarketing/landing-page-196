@@ -271,7 +271,7 @@ export default function TravelWhatsAppLanding() {
                     ))}
                   </ul>
                   <Button asChild className="w-full bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white shadow-lg hover:shadow-xl transition-all duration-300 py-6 text-lg" size="lg">
-                    <Link href="https://pay.kiwify.com.br/tTggpR1" target="_blank">
+                  <Link href="https://pay.kiwify.com.br/9Mjpjp2" target="_blank">
                       <MessageCircle className="mr-2 h-5 w-5" />
                       Assinar Agora no Grupo
                       <ArrowRight className="ml-2 h-5 w-5" />
