@@ -6,7 +6,7 @@ import Image from "next/image"
 import Link from "next/link"
 
 export default function TravelWhatsAppLanding() {
-  const checkoutUrl = "https://pay.kiwify.com.br/HvLuXlC"
+  const checkoutUrl = "https://pay.kiwify.com.br/9Mjpjp2"
 
   return (
     <div className="flex flex-col min-h-screen bg-gradient-to-br from-blue-50 to-cyan-50">
