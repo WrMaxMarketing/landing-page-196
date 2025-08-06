@@ -6,7 +6,7 @@
  * or disable the default devtool with "devtool: false".
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
-(self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([["app/layout"],{
+self["webpackHotUpdate_N_E"]("app/layout",{
 
 /***/ "(app-pages-browser)/./app/globals.css":
 /*!*************************!*\
@@ -59,11 +59,4 @@ eval(__webpack_require__.ts("// extracted by mini-css-extract-plugin\nmodule.exp
 
 /***/ })
 
-},
-/******/ __webpack_require__ => { // webpackRuntimeModules
-/******/ var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-/******/ __webpack_require__.O(0, ["main-app"], () => (__webpack_exec__("(app-pages-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22C%3A%5C%5CUsers%5C%5Catend%5C%5CDesktop%5C%5CSites%5C%5Cgrupowpp%5C%5Cnode_modules%5C%5Cnext%5C%5Cfont%5C%5Clocal%5C%5Ctarget.css%3F%7B%5C%22path%5C%22%3A%5C%22node_modules%5C%5C%5C%5Cgeist%5C%5C%5C%5Cdist%5C%5C%5C%5Csans.js%5C%22%2C%5C%22import%5C%22%3A%5C%22%5C%22%2C%5C%22arguments%5C%22%3A%5B%7B%5C%22src%5C%22%3A%5C%22.%2Ffonts%2Fgeist-sans%2FGeist-Variable.woff2%5C%22%2C%5C%22variable%5C%22%3A%5C%22--font-geist-sans%5C%22%2C%5C%22weight%5C%22%3A%5C%22100%20900%5C%22%7D%5D%2C%5C%22variableName%5C%22%3A%5C%22GeistSans%5C%22%7D%22%2C%22ids%22%3A%5B%5D%7D&modules=%7B%22request%22%3A%22C%3A%5C%5CUsers%5C%5Catend%5C%5CDesktop%5C%5CSites%5C%5Cgrupowpp%5C%5Cnode_modules%5C%5Cnext%5C%5Cfont%5C%5Clocal%5C%5Ctarget.css%3F%7B%5C%22path%5C%22%3A%5C%22node_modules%5C%5C%5C%5Cgeist%5C%5C%5C%5Cdist%5C%5C%5C%5Cmono.js%5C%22%2C%5C%22import%5C%22%3A%5C%22%5C%22%2C%5C%22arguments%5C%22%3A%5B%7B%5C%22src%5C%22%3A%5C%22.%2Ffonts%2Fgeist-mono%2FGeistMono-Variable.woff2%5C%22%2C%5C%22variable%5C%22%3A%5C%22--font-geist-mono%5C%22%2C%5C%22adjustFontFallback%5C%22%3Afalse%2C%5C%22fallback%5C%22%3A%5B%5C%22ui-monospace%5C%22%2C%5C%22SFMono-Regular%5C%22%2C%5C%22Roboto%20Mono%5C%22%2C%5C%22Menlo%5C%22%2C%5C%22Monaco%5C%22%2C%5C%22Liberation%20Mono%5C%22%2C%5C%22DejaVu%20Sans%20Mono%5C%22%2C%5C%22Courier%20New%5C%22%2C%5C%22monospace%5C%22%5D%2C%5C%22weight%5C%22%3A%5C%22100%20900%5C%22%7D%5D%2C%5C%22variableName%5C%22%3A%5C%22GeistMono%5C%22%7D%22%2C%22ids%22%3A%5B%5D%7D&modules=%7B%22request%22%3A%22C%3A%5C%5CUsers%5C%5Catend%5C%5CDesktop%5C%5CSites%5C%5Cgrupowpp%5C%5Capp%5C%5Cglobals.css%22%2C%22ids%22%3A%5B%5D%7D&server=false!")));
-/******/ var __webpack_exports__ = __webpack_require__.O();
-/******/ _N_E = __webpack_exports__;
-/******/ }
-]);
+});
