@@ -16,7 +16,7 @@ export default function TravelWhatsAppLanding() {
           <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-cyan-500 rounded-xl flex items-center justify-center">
             <Plane className="h-6 w-6 text-white" />
           </div>
-          <span className="ml-3 text-2xl font-bold bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">Grupo Premium 196</span>
+          <span className="ml-3 text-2xl font-bold bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">GRUPO PREMIUM - IA - 196 SONHOS</span>
         </div>
         <nav className="ml-auto flex gap-6 sm:gap-8">
           <Link href="#beneficios" className="text-sm font-semibold hover:text-blue-600 transition-colors relative group">
@@ -45,16 +45,15 @@ export default function TravelWhatsAppLanding() {
                   <Badge className="bg-gradient-to-r from-green-500 to-emerald-500 text-white hover:from-green-600 hover:to-emerald-600 px-4 py-2 text-sm font-semibold">
                     🔥 Mais de 500 membros satisfeitos
                   </Badge>
-                  <h1 className="text-4xl font-bold tracking-tight sm:text-5xl xl:text-6xl/none leading-tight">
-                    Ofertas Exclusivas de{" "}
+                  <h1 className="text-4xl font-bold tracking-tight sm:text-5xl xl:text-6xl/none leading-tight text-center">
+                  As melhores ofertas de {" "}
                     <span className="bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">
                       Viagens
                     </span>{" "}
-                    no seu WhatsApp
+                    direto no seu whatsapp diariamente
                   </h1>
-                  <p className="max-w-[600px] text-gray-600 text-lg md:text-xl leading-relaxed">
-                    Entre no grupo VIP e receba diariamente as melhores ofertas de passagens, hotéis e pacotes de viagem
-                    com até <strong className="text-green-600">70% de desconto</strong>. Seja o primeiro a saber das promoções relâmpago!
+                  <p className="max-w-[600px] text-gray-600 text-lg md:text-xl leading-relaxed mx-auto text-center">
+                  Usamos IA para vasculhar diariamente as melhores ofertas de Voos, hospedagens e pacotes de viagem relâmpago
                   </p>
                 </div>
                 <div className="flex flex-col gap-4 sm:flex-row justify-center">
