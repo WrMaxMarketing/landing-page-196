@@ -98,7 +98,7 @@ export default function TravelWhatsAppLanding() {
                   <Button asChild size="lg" className="w-full sm:w-auto bg-gradient-to-r from-blue-600 to-teal-600 hover:from-blue-700 hover:to-teal-700 text-white px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg font-medium shadow-lg hover:shadow-xl transition-all duration-300 rounded-xl">
                     <Link href={mainCheckoutUrl} target="_blank">
                       <MessageCircle className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
-                      Começar Minha Jornada
+                      Entrar no Grupo
                     </Link>
                   </Button>
                   <div className="flex items-center gap-2 text-xs sm:text-sm text-slate-600">
