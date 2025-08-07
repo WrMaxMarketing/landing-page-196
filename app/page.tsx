@@ -76,7 +76,7 @@ export default function TravelWhatsAppLanding() {
                     <span className="font-extralight">As Melhores Ofertas  </span>
                     <br />
                     <span className="font-semibold bg-gradient-to-r from-blue-600 via-teal-600 to-emerald-600 bg-clip-text text-transparent">
-                    de Viagem ,
+                    de Viagem,
                     </span>
                    
                     <span className="font-extralight"> direto no</span>
