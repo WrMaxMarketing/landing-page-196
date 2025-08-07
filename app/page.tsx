@@ -507,7 +507,7 @@ export default function TravelWhatsAppLanding() {
                 </span>
               </div>
               <p className="text-sm sm:text-base text-slate-600 max-w-md leading-relaxed">
-                Conectando viajantes às melhores experiências do mundo há mais de 2 anos. 
+                Conectando viajantes às melhores experiências do mundo. 
                 Sua próxima aventura começa aqui.
               </p>
             </div>
@@ -531,7 +531,7 @@ export default function TravelWhatsAppLanding() {
               <h3 className="text-sm sm:text-base font-medium mb-3 sm:mb-4 text-slate-800">Suporte</h3>
               <div className="space-y-1 sm:space-y-2 text-slate-600">
                 
-                <p className="text-xs sm:text-sm">Email: contato@premium196.com</p>
+                <p className="text-xs sm:text-sm">Email: suporte@196viagens.net</p>
                 <p className="text-xs sm:text-sm">Atendimento: 9h às 18h</p>
               </div>
             </div>
