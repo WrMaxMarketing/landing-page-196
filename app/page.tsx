@@ -216,30 +216,13 @@ export default function TravelWhatsAppLanding() {
                   <Check className="h-4 w-4 sm:h-5 sm:w-5 text-white" />
                 </div>
                 <div>
-                  <h3 className="text-base sm:text-lg font-medium mb-1 sm:mb-2 text-slate-800">Pacotes Completos</h3>
-                  <p className="text-sm sm:text-base text-slate-600">Experiências all-inclusive com preços imperdíveis</p>
-                </div>
-              </div>
-              
-              <div className="flex items-start gap-3 sm:gap-4 bg-white/60 backdrop-blur-sm rounded-2xl p-4 sm:p-6 border border-white/40 shadow-sm">
-                <div className="w-8 h-8 sm:w-10 sm:h-10 bg-gradient-to-r from-blue-500 to-emerald-500 rounded-xl flex items-center justify-center flex-shrink-0 mt-1">
-                  <Check className="h-4 w-4 sm:h-5 sm:w-5 text-white" />
-                </div>
-                <div>
                   <h3 className="text-base sm:text-lg font-medium mb-1 sm:mb-2 text-slate-800">Oportunidades Únicas</h3>
                   <p className="text-sm sm:text-base text-slate-600">Alertas de tarifas especiais que aparecem por pouco tempo</p>
                 </div>
               </div>
               
-              <div className="flex items-start gap-3 sm:gap-4 bg-white/60 backdrop-blur-sm rounded-2xl p-4 sm:p-6 border border-white/40 shadow-sm">
-                <div className="w-8 h-8 sm:w-10 sm:h-10 bg-gradient-to-r from-teal-500 to-blue-500 rounded-xl flex items-center justify-center flex-shrink-0 mt-1">
-                  <Check className="h-4 w-4 sm:h-5 sm:w-5 text-white" />
-                </div>
-                <div>
-                  <h3 className="text-base sm:text-lg font-medium mb-1 sm:mb-2 text-slate-800">Dicas e alertas de viagem</h3>
-                  <p className="text-sm sm:text-base text-slate-600">Roteiros e sugestões baseadas no seu perfil de viajante</p>
-                </div>
-              </div>
+              
+              
               
             
             </div>
