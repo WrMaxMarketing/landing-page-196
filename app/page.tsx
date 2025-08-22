@@ -12,9 +12,14 @@ export default function TravelWhatsAppLanding() {
       {/* Header */}
       <header className="px-4 sm:px-6 lg:px-8 h-16 sm:h-20 flex items-center border-b border-slate-200/60 bg-white/80 backdrop-blur-xl sticky top-0 z-50 shadow-sm">
         <div className="flex items-center justify-center">
-          <div className="w-9 h-9 sm:w-11 sm:h-11 bg-gradient-to-r from-blue-500 to-teal-500 rounded-2xl flex items-center justify-center shadow-lg">
+          {/* <div className="w-9 h-9 sm:w-11 sm:h-11 bg-gradient-to-r from-blue-500 to-teal-500 rounded-2xl flex items-center justify-center shadow-lg">
             <Compass className="h-5 w-5 sm:h-6 sm:w-6 text-white" />
-          </div>
+          </div> */}
+          <img
+            src="/196-white-bg.png"
+            alt="Vipex Logo"
+            className="h-12 w-auto transition-transform hover:scale-105 cursor-pointer"
+          />
           <span className="ml-2 sm:ml-3 text-xl sm:text-2xl font-light tracking-wide text-slate-800">
             GRUPO PREMIUM IA <span className="font-semibold bg-gradient-to-r from-blue-600 to-teal-600 bg-clip-text text-transparent">196</span>
           </span>
@@ -60,11 +65,6 @@ export default function TravelWhatsAppLanding() {
             <div className="absolute inset-0 bg-gradient-to-t from-white/90 via-transparent to-white/50"></div>
           </div>
 
-          {/* Floating Elements - Hidden on mobile */}
-          <div className="hidden sm:block absolute top-20 left-10 w-2 h-2 bg-blue-400 rounded-full animate-bounce opacity-60"></div>
-          <div className="hidden sm:block absolute top-32 right-20 w-1.5 h-1.5 bg-teal-400 rounded-full animate-bounce delay-1000 opacity-60"></div>
-          <div className="hidden sm:block absolute bottom-40 left-20 w-1 h-1 bg-blue-500 rounded-full animate-bounce delay-500 opacity-60"></div>
-
           {/* Content */}
           <div className="container px-4 sm:px-6 md:px-8 max-w-6xl mx-auto relative z-10">
             <div className="flex flex-col items-start justify-center text-left">
@@ -105,7 +105,7 @@ export default function TravelWhatsAppLanding() {
                 </div>
 
                 <div className="flex flex-col gap-4 sm:gap-6 sm:flex-row justify-center items-center px-4 sm:px-0">
-                  <Button asChild size="lg" className="w-full sm:w-auto bg-gradient-to-r from-blue-600 to-teal-600 hover:from-blue-700 hover:to-teal-700 text-white px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg font-medium shadow-lg hover:shadow-xl transition-all duration-300 rounded-xl">
+                  <Button asChild size="lg" className="w-full sm:w-auto bg-gradient-to-r from-green-600 to-green-800 hover:from-green-700 hover:to-teal-700 text-white px-6 sm:px-8 py-3 sm:py-6 text-base sm:text-lg font-medium shadow-lg hover:shadow-xl transition-all duration-300 rounded-xl">
                     <Link href={mainCheckoutUrl} target="_blank">
                       <MessageCircle className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
                       Entrar no Grupo
@@ -366,8 +366,12 @@ export default function TravelWhatsAppLanding() {
 
             <Card className="border-0 shadow-2xl bg-white max-w-lg mx-auto">
               <CardHeader className="text-center pb-4 sm:pb-6">
-                <div className="mx-auto w-16 h-16 sm:w-20 sm:h-20 bg-gradient-to-r from-blue-500 to-emerald-500 rounded-2xl flex items-center justify-center mb-4 sm:mb-6 shadow-lg">
-                  <MessageCircle className="h-8 w-8 sm:h-10 sm:w-10 text-white" />
+                <div className="mx-auto w-16 h-16 sm:w-20 sm:h-20 bg-black rounded-2xl flex items-center justify-center mb-4 sm:mb-6 shadow-lg">
+                  <img
+                    src="/196-black-bg.png"
+                    alt="Vipex Logo"
+                    className="h-12 w-auto transition-transform hover:scale-105 cursor-pointer"
+                  />
                 </div>
                 <CardTitle className="text-xl sm:text-2xl mb-1 sm:mb-2 text-slate-800 font-medium">Grupo Premium 196</CardTitle>
                 <CardDescription className="text-sm sm:text-base text-slate-600">Acesso completo às melhores ofertas de viagem</CardDescription>
@@ -416,7 +420,7 @@ export default function TravelWhatsAppLanding() {
                 </div>
 
                 <div className="space-y-2 sm:space-y-3">
-                  <Button asChild className="w-full bg-gradient-to-r from-blue-600 to-emerald-600 hover:from-blue-700 hover:to-emerald-700 text-white py-3 sm:py-4 text-base sm:text-lg font-medium shadow-lg hover:shadow-xl transition-all duration-300 rounded-xl" size="lg">
+                  <Button asChild className="w-full bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-800 hover:to-emerald-700 text-white py-3 sm:py-6 text-base sm:text-lg font-medium shadow-lg hover:shadow-xl transition-all duration-300 rounded-xl" size="lg">
                     <Link href={mainCheckoutUrl} target="_blank">
                       <MessageCircle className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
                       Começar Agora
@@ -439,47 +443,54 @@ export default function TravelWhatsAppLanding() {
           <div
             className="absolute inset-0 bg-cover bg-center bg-no-repeat"
             style={{
-              backgroundImage: 'url(/airplane-sunset.png)',
-              backgroundSize: 'cover',
-              backgroundPosition: 'center'
+              backgroundImage: "url(/tropical-beach-airplane.png)",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
           >
-            {/* Overlay */}
-            <div className="absolute inset-0 bg-gradient-to-r from-orange-600/95 via-red-600/90 to-orange-500/95"></div>
-            <div className="absolute inset-0 bg-gradient-to-t from-red-700/80 via-transparent to-orange-600/70"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-white/40 via-white/70 to-white/50"></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-white/88 via-white/12 to-white/86"></div>
           </div>
 
           <div className="container px-4 sm:px-6 md:px-8 max-w-4xl mx-auto text-center relative z-10">
             <div className="space-y-6 sm:space-y-8">
               <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-3 mb-4 sm:mb-6">
-                <Timer className="h-6 w-6 sm:h-8 sm:w-8 text-yellow-200 animate-pulse" />
-                <Badge className="bg-white/20 backdrop-blur-sm text-white border border-white/30 px-3 sm:px-4 py-1.5 sm:py-2 text-xs sm:text-sm font-medium">
+                <Timer className="h-6 w-6 sm:h-8 sm:w-8 text-emerald-600 animate-pulse" />
+                <Badge className="bg-emerald-50 text-emerald-700 border border-emerald-200 px-3 sm:px-4 py-1.5 sm:py-2 text-xs sm:text-sm font-medium">
                   Oferta por tempo limitado
                 </Badge>
               </div>
 
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-light tracking-tight text-white">
-                Últimas <span className="font-semibold">47 vagas</span> disponíveis
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-light tracking-tight text-slate-800">
+                Últimas <span className="font-semibold bg-gradient-to-r from-blue-600 via-teal-600 to-emerald-600 bg-clip-text text-transparent">
+                  47 vagas
+                </span> disponíveis!
               </h2>
 
-              <p className="text-base sm:text-lg lg:text-xl max-w-2xl mx-auto leading-relaxed font-light px-4 sm:px-0 text-white/95">
-                Não perca a oportunidade de fazer parte do grupo mais exclusivo de ofertas de viagem.
-                Sua próxima aventura está esperando!
+              <p className="text-base sm:text-lg lg:text-xl max-w-2xl mx-auto leading-relaxed font-light px-4 sm:px-0 text-slate-800">
+                Não perca a oportunidade de fazer parte do grupo mais exclusivo de ofertas de viagem. Sua próxima
+                aventura está esperando!
               </p>
 
-              <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 sm:p-8 max-w-sm sm:max-w-md mx-auto border border-white/20">
+              <div className="bg-gradient-to-br from-emerald-500/90 to-green-600/90 backdrop-blur-sm rounded-2xl p-6 sm:p-8 max-w-sm sm:max-w-md mx-auto border border-emerald-400/50 shadow-xl">
                 {/* Urgency Pricing Update */}
-                <div className="text-base sm:text-lg text-orange-100 mb-2">Plano anual com super desconto:</div>
+                <div className="text-base sm:text-lg text-emerald-100 mb-2">Plano anual com super desconto:</div>
                 <div className="text-3xl sm:text-4xl lg:text-5xl font-light text-white mb-2">R$ 33,08</div>
-                <div className="text-xs sm:text-sm text-orange-100 mb-1">por mês</div>
-                <div className="text-xs text-orange-200 mb-4 sm:mb-6">R$ 397 pagamento anual</div>
-                <Button asChild size="lg" className="w-full bg-white hover:bg-gray-50 text-orange-600 font-medium px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg shadow-lg hover:shadow-xl transition-all duration-300 rounded-xl">
+                <div className="text-xs sm:text-sm text-emerald-100 mb-1">por mês</div>
+                <div className="text-xs text-emerald-200 mb-4 sm:mb-6">R$ 397 pagamento anual</div>
+                <Button
+                  asChild
+                  size="lg"
+                  className="w-full bg-white hover:bg-gray-50 text-slate-800 font-medium px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg shadow-lg hover:shadow-xl transition-all duration-300 rounded-xl border border-white/20"
+                >
                   <Link href={mainCheckoutUrl} target="_blank">
                     <Plane className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
                     Garantir Minha Vaga
                   </Link>
                 </Button>
-                <p className="text-xs sm:text-sm text-orange-100 mt-3 sm:mt-4">⏰ Restam poucas horas para esta oferta</p>
+                <p className="text-xs sm:text-sm text-emerald-100 mt-3 sm:mt-4">
+                  ⏰ Restam poucas horas para esta oferta
+                </p>
               </div>
             </div>
           </div>
