@@ -46,7 +46,7 @@ export default function TravelWhatsAppLanding() {
             <div
               className="absolute inset-0 bg-cover bg-center bg-no-repeat md:hidden"
               style={{
-                backgroundImage: "url('/hero-section-vertical.png')",
+                backgroundImage: "url('/hero-h.png')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
               }}
@@ -55,7 +55,7 @@ export default function TravelWhatsAppLanding() {
             <div
               className="absolute inset-0 bg-cover bg-center bg-no-repeat hidden md:block"
               style={{
-                backgroundImage: "url('/hero-section-horizontal.png')",
+                backgroundImage: "url('/hero-section.png')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
               }}
@@ -83,29 +83,29 @@ export default function TravelWhatsAppLanding() {
                   </div>
 
                   <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-light tracking-tight leading-tight text-slate-800">
-                    <span className="font-extralight">As Melhores Ofertas  </span>
+                    <span className="font-extralight">As melhores ofertas  </span>
                     <br />
                     <span className="font-semibold bg-gradient-to-r from-blue-600 via-teal-600 to-emerald-600 bg-clip-text text-transparent">
-                      de Viagem,
+                      de viagem,
                     </span>
 
-                    <span className="font-extralight"> direto no</span>
+                    <span className="font-extralight"> direto no seu</span>
                     <br />
                     <span className="font-semibold bg-gradient-to-r from-blue-600 via-teal-600 to-emerald-600 bg-clip-text text-transparent">
                       WhatsApp
                     </span>
                     <br />
-                    <span className="font-light">— Todos os Dias!</span>
+                    <span className="font-light">— todos os dias!</span>
                   </h1>
 
                   <p className="max-w-3xl mx-auto text-base sm:text-lg lg:text-xl text-slate-600 leading-relaxed font-light px-4 sm:px-0">
-                    Receba no seu WhatsApp ofertas exclusivas de <strong className="font-medium text-slate-800">passagens, hotéis e experiências </strong>
-                    selecionadas por nossa equipe especializada e nossa Inteligência Artificial
+                    Receba no seu WhatsApp ofertas exclusivas de <strong className="font-medium text-slate-800">passagens, hotéis e experiências únicas, </strong>
+                    escolhidas a dedo pela nossa equipe especializada e potencializadas pela nossa Inteligência Artificial.
                   </p>
                 </div>
 
                 <div className="flex flex-col gap-4 sm:gap-6 sm:flex-row justify-center items-center px-4 sm:px-0">
-                  <Button asChild size="lg" className="w-full sm:w-auto bg-gradient-to-r from-green-600 to-green-800 hover:from-green-700 hover:to-teal-700 text-white px-6 sm:px-8 py-3 sm:py-6 text-base sm:text-lg font-medium shadow-lg hover:shadow-xl transition-all duration-300 rounded-xl">
+                  <Button asChild size="lg" className="w-full sm:w-auto bg-gradient-to-r from-green-600 to-green-800 hover:from-green-700 hover:to-teal-700 text-white px-12 sm:px-8 py-3 sm:py-6 text-base sm:text-lg font-medium shadow-lg hover:shadow-xl transition-all duration-300 rounded-xl">
                     <Link href={mainCheckoutUrl} target="_blank">
                       <MessageCircle className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
                       Entrar no Grupo
