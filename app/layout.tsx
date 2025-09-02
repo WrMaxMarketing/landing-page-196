@@ -5,9 +5,12 @@ import Script from 'next/script'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'grupo premium',
-  description: 'grupo premium',
-  generator: 'grupo premium',
+  title: '196 Viagens',
+  description: 'Grupo Premium',
+  generator: 'Grupo Premium',
+  icons: {
+    icon: "/favicon.ico"
+  }
 }
 
 export default function RootLayout({
