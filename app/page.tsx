@@ -78,23 +78,23 @@ export default function TravelWhatsAppLanding() {
             <div className="absolute inset-0 bg-black/30 backdrop-blur-sm"></div>
 
             <div className="relative z-10 container mx-auto px-6">
-              <Badge className="bg-gradient-to-r from-emerald-400 to-green-500 text-white px-4 py-2 mb-6 text-sm sm:text-base">
+              <Badge className="bg-gradient-to-r from-red-600 to-orange-600 text-white px-4 py-2 mb-6 text-sm sm:text-base">
                 🎉 Promoção Exclusiva
               </Badge>
-              <h1 className="text-4xl sm:text-6xl font-bold mb-6">Viaje Mais Pagando Menos</h1>
+              <h1 className="text-4xl sm:text-6xl font-bold mb-6">Viaje mais pagando menos</h1>
               <p className="text-lg sm:text-2xl mb-8 max-w-2xl mx-auto">
-                Entre para o <strong>Grupo Premium 196</strong> por apenas{" "}
+                Entre para o <strong>Grupo Premium 196</strong> por apenas <br /> {" "}
                 <span className="font-bold">R$ 150 / 3 meses</span> <br />
                 (menos de R$ 2 por dia!)
               </p>
               <Button
                 asChild
                 size="lg"
-                className="bg-gradient-to-r from-white to-slate-100 text-emerald-600 font-bold px-10 py-6 rounded-xl shadow-lg hover:from-gray-100 hover:to-gray-200"
+                className="bg-gradient-to-r from-green-600 to-emerald-600 text-white-600 font-semibold px-10 py-6 rounded-xl shadow-lg hover:from-emerald-800 hover:to-emerald-800"
               >
                 <Link href={mainCheckoutUrl} target="_blank">
                   <MessageCircle className="mr-2 h-5 w-5" />
-                  Garantir meu acesso
+                  GARANTIR MEU ACESSO
                 </Link>
               </Button>
             </div>
