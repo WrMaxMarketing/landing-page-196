@@ -67,14 +67,12 @@ export default function TravelWhatsAppLanding() {
 
       <main className="flex-1">
         {/* Hero Section */}
-        {isPromo ? (
+        {/* {isPromo ? (
           <section className="relative w-full py-20 md:py-28 text-center text-white overflow-hidden">
-            {/* Background Image */}
             <div
               className="absolute inset-0 bg-cover bg-center"
               style={{ backgroundImage: "url('/hero-section-horizontal.png')" }}
             />
-            {/* Overlay */}
             <div className="absolute inset-0 bg-black/30 backdrop-blur-sm"></div>
 
             <div className="relative z-10 container mx-auto px-6">
@@ -99,10 +97,9 @@ export default function TravelWhatsAppLanding() {
               </Button>
             </div>
           </section>
-        ) : (
-          // Hero original
+        ) : ( */}
+          {/* // Hero original */}
           <section className="w-full py-12 sm:py-16 md:py-20 lg:py-28 xl:py-36 relative overflow-hidden">
-            {/* Background Image */}
             <div className="absolute inset-0">
               {/* Mobile background (vertical image) */}
               <div
@@ -203,7 +200,7 @@ export default function TravelWhatsAppLanding() {
               </div>
             </div>
           </section>
-        )}
+        {/* )} */}
 
         {/* Oferta Especial */}
         <section
@@ -216,14 +213,14 @@ export default function TravelWhatsAppLanding() {
                 <Sparkles className="mr-1.5 sm:mr-2 h-3 w-3 sm:h-4 sm:w-4" />
                 Oferta especial anual
               </Badge>
-              {isPromo ? (
+              {/* {isPromo ? (
                 <>
                   <h2 className="text-3xl sm:text-5xl font-bold text-emerald-600">Acesso completo por R$ 150</h2>
                   <p className="text-base sm:text-lg lg:text-xl text-slate-600 font-light">
                     Oferta exclusiva por 3 meses 🚀
                   </p>
                 </>
-              ) : (
+              ) : ( */}
                 <>
                   <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-light tracking-tight mb-4 sm:mb-6 text-slate-800 px-4 sm:px-0">
                     Acesso completo por{" "}
@@ -235,7 +232,7 @@ export default function TravelWhatsAppLanding() {
                     Pagamento anual de R$ 397
                   </p>
                 </>
-              )}
+              {/* )} */}
             </div>
 
             <Card className="border-0 shadow-2xl bg-white max-w-lg mx-auto">
@@ -248,7 +245,7 @@ export default function TravelWhatsAppLanding() {
                 </CardDescription>
 
                 <div className="text-center py-4 sm:py-6">
-                  {isPromo ? (
+                  {/* {isPromo ? (
                     <>
                       <div className="text-4xl sm:text-5xl lg:text-6xl font-light text-emerald-600 mb-2 sm:mb-3">
                         R$ 150
@@ -260,7 +257,7 @@ export default function TravelWhatsAppLanding() {
                       </Badge>
                     </>
                   ) : (
-                    <>
+                    <> */}
                       <div className="text-4xl sm:text-5xl lg:text-6xl font-light bg-gradient-to-r from-blue-600 to-emerald-600 bg-clip-text text-transparent mb-2 sm:mb-3">
                         R$ 33,08
                       </div>
@@ -269,8 +266,8 @@ export default function TravelWhatsAppLanding() {
                       <Badge className="bg-gradient-to-r from-red-50 to-orange-50 text-red-700 border border-red-200">
                         Economia de mais de R$90,00
                       </Badge>
-                    </>
-                  )}
+                    {/* </>
+                  )} */}
                 </div>
               </CardHeader>
 
@@ -282,7 +279,8 @@ export default function TravelWhatsAppLanding() {
                 >
                   <Link href={mainCheckoutUrl} target="_blank">
                     <MessageCircle className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
-                    {isPromo ? "Garantir meu acesso" : "Começar Agora"}
+                    {/* {isPromo ? "Garantir meu acesso" : "Começar Agora"} */}
+                    Começar Agora
                   </Link>
                 </Button>
               </CardContent>
@@ -534,7 +532,7 @@ export default function TravelWhatsAppLanding() {
                 <Sparkles className="mr-1.5 sm:mr-2 h-3 w-3 sm:h-4 sm:w-4" />
                 Oferta especial anual
               </Badge>
-              {isPromo ? (
+              {/* {isPromo ? (
                 <>
                   <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-light tracking-tight mb-4 sm:mb-6 text-slate-800 px-4 sm:px-0">
                     Acesso completo por{" "}
@@ -547,7 +545,7 @@ export default function TravelWhatsAppLanding() {
                   </p>
                 </>
               ) : (
-                <>
+                <> */}
                   <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-light tracking-tight mb-4 sm:mb-6 text-slate-800 px-4 sm:px-0">
                     Acesso completo por{" "}
                     <span className="font-semibold bg-gradient-to-r from-blue-600 to-emerald-600 bg-clip-text text-transparent">
@@ -557,8 +555,8 @@ export default function TravelWhatsAppLanding() {
                   <p className="text-base sm:text-lg lg:text-xl text-slate-600 font-light px-4 sm:px-0">
                     Pagamento anual de R$ 397
                   </p>
-                </>
-              )}
+                {/* </>
+              )} */}
             </div>
 
             <Card className="border-0 shadow-2xl bg-white max-w-lg mx-auto">
@@ -578,7 +576,7 @@ export default function TravelWhatsAppLanding() {
                 </CardDescription>
 
                 <div className="text-center py-4 sm:py-6">
-                  {isPromo ? (
+                  {/* {isPromo ? (
                     <>
                       <div className="text-4xl sm:text-5xl lg:text-6xl font-light bg-gradient-to-r from-emerald-600 to-green-600 bg-clip-text text-transparent mb-2 sm:mb-3">
                         R$ 150
@@ -590,7 +588,7 @@ export default function TravelWhatsAppLanding() {
                       </Badge>
                     </>
                   ) : (
-                    <>
+                    <> */}
                       <div className="text-4xl sm:text-5xl lg:text-6xl font-light bg-gradient-to-r from-blue-600 to-emerald-600 bg-clip-text text-transparent mb-2 sm:mb-3">
                         R$ 33,08
                       </div>
@@ -599,14 +597,14 @@ export default function TravelWhatsAppLanding() {
                       <Badge className="bg-gradient-to-r from-red-50 to-orange-50 text-red-700 border border-red-200">
                         Economia de mais de R$90,00{" "}
                       </Badge>
-                    </>
-                  )}
+                    {/* </>
+                  )} */}
                 </div>
               </CardHeader>
 
               <CardContent className="space-y-4 sm:space-y-6 px-4 sm:px-6">
                 <div className="space-y-3 sm:space-y-4">
-                  {isPromo ? (
+                  {/* {isPromo ? (
                     <>
                       <div className="flex items-center gap-2 sm:gap-3">
                         <div className="w-5 h-5 sm:w-6 sm:h-6 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-full flex items-center justify-center">
@@ -625,7 +623,7 @@ export default function TravelWhatsAppLanding() {
                       </div>
                     </>
                   ) : (
-                    <>
+                    <> */}
                       <div className="flex items-center gap-2 sm:gap-3">
                         <div className="w-5 h-5 sm:w-6 sm:h-6 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-full flex items-center justify-center">
                           <Check className="h-3 w-3 sm:h-4 sm:w-4 text-white" />
@@ -643,8 +641,8 @@ export default function TravelWhatsAppLanding() {
                           R$ 397 pagamento anual (economia de mais de R$ 90,00)
                         </span>
                       </div>
-                    </>
-                  )}
+                    {/* </>
+                  )} */}
 
                   <div className="flex items-center gap-2 sm:gap-3">
                     <div className="w-5 h-5 sm:w-6 sm:h-6 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-full flex items-center justify-center">
@@ -672,7 +670,8 @@ export default function TravelWhatsAppLanding() {
                   >
                     <Link href={mainCheckoutUrl} target="_blank">
                       <MessageCircle className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
-                      {isPromo ? "Garantir meu acesso" : "Começar Agora"}
+                      {/* {isPromo ? "Garantir meu acesso" : "Começar Agora"} */}
+                      Começar Agora
                     </Link>
                   </Button>
 
@@ -724,7 +723,7 @@ export default function TravelWhatsAppLanding() {
               </p>
 
               <div className="bg-gradient-to-br from-emerald-500/90 to-green-600/90 backdrop-blur-sm rounded-2xl p-6 sm:p-8 max-w-sm sm:max-w-md mx-auto border border-emerald-400/50 shadow-xl">
-                {isPromo ? (
+                {/* {isPromo ? (
                   <>
                     <div className="text-base sm:text-lg text-emerald-100 mb-2">Oferta exclusiva por 3 meses:</div>
                     <div className="text-3xl sm:text-4xl lg:text-5xl font-light text-white mb-2">R$ 150</div>
@@ -732,13 +731,13 @@ export default function TravelWhatsAppLanding() {
                     <div className="text-xs text-emerald-200 mb-4 sm:mb-6">Menos de R$ 2 por dia!</div>
                   </>
                 ) : (
-                  <>
+                  <> */}
                     <div className="text-base sm:text-lg text-emerald-100 mb-2">Plano anual com super desconto:</div>
                     <div className="text-3xl sm:text-4xl lg:text-5xl font-light text-white mb-2">R$ 33,08</div>
                     <div className="text-xs sm:text-sm text-emerald-100 mb-1">por mês</div>
                     <div className="text-xs text-emerald-200 mb-4 sm:mb-6">R$ 397 pagamento anual</div>
-                  </>
-                )}
+                  {/* </>
+                )} */}
                 <Button
                   asChild
                   size="lg"
