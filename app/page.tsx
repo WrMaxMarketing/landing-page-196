@@ -668,8 +668,8 @@ export default function TravelWhatsAppLanding() {
                     className="w-full bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-800 hover:to-emerald-700 text-white py-3 sm:py-6 text-base sm:text-lg font-medium shadow-lg hover:shadow-xl transition-all duration-300 rounded-xl"
                     size="lg"
                   >
-                    {/* <Link href={mainCheckoutUrl} target="_blank"> */}
-                    <Link href="https://tintim.link/whatsapp/9239fa62-8bbe-4f7c-abce-b9d6257de6cf/1b4d66b0-481e-4aaf-bd58-bd96bf7de7e1" target="_blank">
+                    <Link href={mainCheckoutUrl} target="_blank">
+                    {/* <Link href="https://tintim.link/whatsapp/9239fa62-8bbe-4f7c-abce-b9d6257de6cf/1b4d66b0-481e-4aaf-bd58-bd96bf7de7e1" target="_blank"> */}
                       <MessageCircle className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
                       {/* {isPromo ? "Garantir meu acesso" : "Começar Agora"} */}
                       Começar Agora
