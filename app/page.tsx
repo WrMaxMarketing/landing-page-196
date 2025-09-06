@@ -236,7 +236,7 @@ export default function TravelWhatsAppLanding() {
             </div>
 
             <Card className="border-0 shadow-2xl bg-white max-w-lg mx-auto">
-              <CardHeader className="text-center pb-4 sm:pb-6">
+              <CardHeader className="text-center">
                 <CardTitle className="text-xl sm:text-2xl mb-1 sm:mb-2 text-slate-800 font-medium">
                   Grupo Premium 196
                 </CardTitle>
@@ -263,7 +263,7 @@ export default function TravelWhatsAppLanding() {
                       </div>
                       <div className="text-lg sm:text-xl text-slate-600 mb-1">por mês</div>
                       <div className="text-xs sm:text-sm text-slate-500 mb-2 sm:mb-3">R$ 397 (pagamento anual)</div>
-                      <Badge className="bg-gradient-to-r from-red-50 to-orange-50 text-red-700 border border-red-200">
+                      <Badge className="bg-gradient-to-r from-green-50 to-teal-50 text-green-700 border border-green-200">
                         Economia de mais de R$90,00
                       </Badge>
                     {/* </>
