@@ -72,7 +72,7 @@ export default function TravelWhatsAppLanding() {
         <section className="w-full py-12 sm:py-16 md:py-20 lg:py-28 xl:py-36 relative overflow-hidden">
           <div className="absolute inset-0 z-0">
             <img
-              src="/beautiful-tropical-beach-with-crystal-clear-water-.jpg"
+              src="/beautiful-tropical-beach-with-crystal-clear-water.jpg"
               alt="Travel destination background"
               className="w-full h-full object-cover"
             />
